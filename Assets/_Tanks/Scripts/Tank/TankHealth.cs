@@ -55,7 +55,7 @@ namespace Tanks.Complete
             SetHealthUI();
         }
 
-
+        public void ToggleInvincibility()         {             m_IsInvincible = !m_IsInvincible;         } 
         public void TakeDamage (float amount)
         {
             // Check if the tank is not invincible
@@ -111,10 +111,6 @@ namespace Tanks.Complete
             }
         }
 
-        public void ToggleInvincibility()
-        {
-            m_IsInvincible = !m_IsInvincible;
-        }
 
 
         private void SetHealthUI ()

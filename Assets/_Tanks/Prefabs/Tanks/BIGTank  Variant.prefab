@@ -138,7 +138,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7798063989952297811, guid: ccf10a425d19efd4181041b2d36f805f, type: 3}
       propertyPath: m_MaxDamage
-      value: 150
+      value: 125
       objectReference: {fileID: 0}
     - target: {fileID: 8463356545273796407, guid: ccf10a425d19efd4181041b2d36f805f, type: 3}
       propertyPath: m_Name
